@@ -83,7 +83,7 @@ const HeroSection = () => {
               {/* Main Image Container */}
               <div className="relative overflow-hidden rounded-2xl shadow-large">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=700&fit=crop&crop=face"
+                  src='../assets/images/vickyFormalPhoto.jpg'
                   alt="Vikas Giram - Professional Developer Portrait"
                   className="w-full h-[500px] lg:h-[600px] object-cover"
                 />

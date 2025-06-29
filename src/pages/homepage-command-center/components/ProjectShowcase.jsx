@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
+import { link } from 'd3';
 
 const ProjectShowcase = () => {
   const [activeProject, setActiveProject] = useState(0);
@@ -9,43 +10,51 @@ const ProjectShowcase = () => {
   const projects = [
     {
       id: 1,
-      title: "SecureChat Pro",
+      title: "ChitChat",
       description: "End-to-end encrypted messaging platform with advanced security features and real-time communication.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "JWT"],
+      image: "../assets/images/chitchat.png",
+      technologies: ["React", "Node.js", "Socket.io", "MongoDB", "JWT", "Tailwind CSS"],
       securityFeatures: ["E2E Encryption", "2FA", "Message Expiry"],
       status: "Live",
-      metrics: { users: "15K+", uptime: "99.9%", security: "A+" }
+      metrics: { users: "15K+", uptime: "99.9%", security: "A+" },
+      link: "https://chitchat-7fur.onrender.com/",
+      sourceCode: "https://github.com/vikasgiram/ChitChat"
     },
     {
       id: 2,
-      title: "EcoCommerce Hub",
-      description: "Sustainable e-commerce platform with carbon footprint tracking and eco-friendly vendor verification.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Express", "MongoDB", "Stripe", "AWS"],
-      securityFeatures: ["PCI Compliance", "Data Encryption", "Fraud Detection"],
+      title: "Nestify",
+      description: "A rental accommodation site that helps users to find the perfect place to stay.",
+      image: "../assets/images/nestify.png",
+      technologies: ["HTML", "Express", "MongoDB", "Node", "Cloudinary", 'EJS', 'Bootstrap'],
+      securityFeatures: ["Identity Verification", "Data Encryption", "Secure Commnication"],
       status: "Live",
-      metrics: { orders: "8.5K", revenue: "$2.1M", rating: "4.8/5" }
+      metrics: { properties: "8.5K", revenue: "$2.1M", rating: "4.8/5" },
+      link: "https://nestify-cczs.onrender.com",
+      sourceCode: "https://github.com/vikasgiram/Nestify"
     },
     {
       id: 3,
-      title: "HealthTracker AI",
-      description: "AI-powered health monitoring dashboard with predictive analytics and secure patient data management.",
+      title: "ProClient360",
+      description: "A perfect solucation for the organization. It has Project Management, CRM, Task Management.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
-      technologies: ["React", "Python", "TensorFlow", "MongoDB", "Docker"],
-      securityFeatures: ["HIPAA Compliant", "Biometric Auth", "Audit Logs"],
+      technologies: ["React", "Firebase", "Node", "MongoDB", "Bootstrap", 'Express'],
+      securityFeatures: ["Secure APIs", "Role Based Access", "Audit Logs"],
       status: "Beta",
-      metrics: { patients: "3.2K", accuracy: "94%", compliance: "100%" }
+      metrics: { clients: "3", timeManagement: "97.35%", compliance: "100%" },
+      link: 'https://pms-front-qvyb.onrender.com',
+      sourceCode: "#"
     },
     {
       id: 4,
-      title: "DevOps Command Center",
-      description: "Comprehensive DevOps monitoring and deployment automation platform with security-first approach.",
+      title: "Maya - AI Voice Assistant",
+      description: "Its an Voice Assistant that can help you with your daily tasks, reminders, and more.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "Docker", "Kubernetes", "Jenkins"],
+      technologies: ['Python', 'OpenAI', 'Speech Recognition', 'Natural Language Processing'],
       securityFeatures: ["Zero Trust", "Container Security", "RBAC"],
-      status: "Development",
-      metrics: { deployments: "1.8K", success: "98.5%", downtime: "0.1%" }
+      status: "Live",
+      metrics: {success: "98.5%", downtime: "0.1%" },
+      sourceCode: "https://github.com/vikasgiram/Maya-AI-assistant",
+      link:"#"
     }
   ];
 
@@ -181,6 +190,7 @@ const ProjectShowcase = () => {
                     iconName="ExternalLink"
                     iconPosition="right"
                     className="flex-1"
+                    onClick={() => window.open(currentProject.link, '_blank')}
                   >
                     View Live Demo
                   </Button>
@@ -189,6 +199,7 @@ const ProjectShowcase = () => {
                     iconName="Github"
                     iconPosition="left"
                     className="flex-1"
+                    onClick={() => window.open(currentProject.sourceCode, '_blank')}
                   >
                     Source Code
                   </Button>
