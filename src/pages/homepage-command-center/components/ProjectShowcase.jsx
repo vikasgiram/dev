@@ -3,9 +3,12 @@ import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
 import { link } from 'd3';
+import { useNavigate } from 'react-router-dom';
 
 const ProjectShowcase = () => {
   const [activeProject, setActiveProject] = useState(0);
+
+  const navigate = useNavigate();
 
   const projects = [
     {
@@ -230,6 +233,7 @@ const ProjectShowcase = () => {
             size="lg"
             iconName="FolderOpen"
             iconPosition="right"
+            onClick={() => navigate('/projects-portfolio-showcase')}
           >
             View Full Portfolio
           </Button>

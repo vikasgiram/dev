@@ -152,7 +152,7 @@ const QuickHireSection = () => {
                   iconPosition="left"
                   className="justify-start"
                 >
-                  vikas@vikasgiram.dev
+                  vikigiram@gmail.com
                 </Button>
                 <Button
                   variant="ghost"

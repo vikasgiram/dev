@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
+import { link } from 'd3';
 
 const ResumeSection = () => {
   const [downloadFormat, setDownloadFormat] = useState('pdf');
@@ -12,8 +13,9 @@ const ResumeSection = () => {
       name: 'PDF Resume',
       description: 'Professional PDF format for applications',
       icon: 'FileText',
-      size: '2.3 MB',
-      lastUpdated: 'Dec 15, 2023'
+      size: '200 KB',
+      lastUpdated: 'Dec 15, 2023',
+      link: 'https://drive.google.com/file/d/1vlRd7AKgs43zyG6m_hVU1eMTDJ-UAN7_/view?usp=sharing'
     },
     {
       id: 'linkedin',
@@ -21,7 +23,8 @@ const ResumeSection = () => {
       description: 'Complete professional profile',
       icon: 'ExternalLink',
       size: 'Online',
-      lastUpdated: 'Updated daily'
+      lastUpdated: 'Updated daily',
+      link: 'https://linkedin.com/in/vikasgiram'
     },
     {
       id: 'portfolio',
@@ -29,7 +32,8 @@ const ResumeSection = () => {
       description: 'This website with all details',
       icon: 'Globe',
       size: 'Online',
-      lastUpdated: 'Live updates'
+      lastUpdated: 'Live updates',
+      link: '#'
     }
   ];
 
@@ -46,8 +50,8 @@ const ResumeSection = () => {
     {
       category: "Experience",
       items: [
-        "5+ years Full-Stack Development",
-        "50+ projects delivered successfully",
+        "1+ years Full-Stack Development",
+        "7+ projects delivered successfully",
         "Enterprise & startup experience",
         "Team leadership & mentoring"
       ]
@@ -55,7 +59,7 @@ const ResumeSection = () => {
     {
       category: "Education & Certifications",
       items: [
-        "M.Tech in Cybersecurity - IIT Delhi",
+        "B.Tech in Cybersecurity - GH Raisoni",
         "AWS Certified Developer",
         "Certified Ethical Hacker (CEH)",
         "CISSP Certified Professional"
@@ -66,7 +70,7 @@ const ResumeSection = () => {
       items: [
         "HackerRank 5-Star JavaScript Rating",
         "LeetCode Top 10% Problem Solver",
-        "200+ GitHub followers",
+        "7+ Projects Completed",
         "Technical writer with 10K+ article views"
       ]
     }
@@ -80,10 +84,31 @@ const ResumeSection = () => {
     await new Promise(resolve => setTimeout(resolve, 2000));
     
     if (format === 'pdf') {
-      // In a real application, this would trigger an actual PDF download
-      console.log('Downloading PDF resume...');
+      // Get the PDF download URL from the resumeFormats array
+      const pdfFormat = resumeFormats.find(f => f.id === 'pdf');
+      if (pdfFormat && pdfFormat.link) {
+        // Convert Google Drive sharing link to direct download link
+        const fileId = pdfFormat.link.match(/\/d\/([a-zA-Z0-9-_]+)/)?.[1];
+        if (fileId) {
+          const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+          
+          // Create a temporary anchor element to trigger download
+          const link = document.createElement('a');
+          link.href = downloadUrl;
+          link.download = 'Vikas_Giram_Resume.pdf';
+          link.target = '_blank';
+          
+          // Append to body, click, and remove
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        } else {
+          // Fallback: open the Google Drive link in a new tab
+          window.open(pdfFormat.link, '_blank');
+        }
+      }
     } else if (format === 'linkedin') {
-      window.open('https://linkedin.com/in/vikas-giram', '_blank');
+      window.open('https://linkedin.com/in/vikasgiram', '_blank');
     } else if (format === 'portfolio') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -92,8 +117,8 @@ const ResumeSection = () => {
   };
 
   const quickStats = [
-    { label: "Years Experience", value: "5+", icon: "Clock" },
-    { label: "Projects Completed", value: "50+", icon: "CheckCircle" },
+    { label: "Years Experience", value: "1+", icon: "Clock" },
+    { label: "Projects Completed", value: "7+", icon: "CheckCircle" },
     { label: "Client Satisfaction", value: "100%", icon: "ThumbsUp" },
     { label: "Security Focus", value: "Always", icon: "Shield" }
   ];
@@ -267,7 +292,6 @@ const ResumeSection = () => {
                 size="sm"
                 iconName="ArrowRight"
                 iconPosition="right"
-                className="bg-white text-primary hover:bg-gray-100"
               >
                 Start Conversation
               </Button>

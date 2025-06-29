@@ -41,11 +41,11 @@ const HeroSection = () => {
             {/* Key Stats */}
             <div className="grid grid-cols-3 gap-6 py-6 border-t border-b border-border/50">
               <div className="text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-primary">5+</div>
+                <div className="text-2xl lg:text-3xl font-bold text-primary">1+</div>
                 <div className="text-sm text-text-secondary">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl lg:text-3xl font-bold text-accent">50+</div>
+                <div className="text-2xl lg:text-3xl font-bold text-accent">7+</div>
                 <div className="text-sm text-text-secondary">Projects Delivered</div>
               </div>
               <div className="text-center">
@@ -62,6 +62,7 @@ const HeroSection = () => {
                 iconName="Download"
                 iconPosition="left"
                 className="font-cta"
+                onClick={() => window.open('https://drive.google.com/file/d/1vlRd7AKgs43zyG6m_hVU1eMTDJ-UAN7_/view?usp=sharing', '_blank')}
               >
                 Download Resume
               </Button>
@@ -70,7 +71,7 @@ const HeroSection = () => {
                 size="lg"
                 iconName="ExternalLink"
                 iconPosition="right"
-                onClick={() => window.open('https://linkedin.com/in/vikas-giram', '_blank')}
+                onClick={() => window.open('https://linkedin.com/in/vikasgiram', '_blank')}
               >
                 View LinkedIn Profile
               </Button>

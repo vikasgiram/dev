@@ -9,45 +9,45 @@ const TechnicalEvolution = () => {
     {
       id: 1,
       phase: "Foundation Phase",
-      period: "2018-2019",
+      period: "2019-2020",
       title: "Security & Programming Fundamentals",
       description: "Started with cybersecurity fundamentals and programming basics. Built strong foundation in security principles while learning core programming concepts.",
       technologies: [
-        { name: "Python", level: 60, category: "Programming" },
+        { name: "C-Language", level: 78, category: "Programming" },
         { name: "Network Security", level: 80, category: "Security" },
-        { name: "Linux", level: 70, category: "Systems" },
+        { name: "C++", level: 70, category: "Programming" },
         { name: "SQL", level: 65, category: "Database" }
       ],
       achievements: [
-        "Completed cybersecurity certification",
-        "Built first security audit tools",
-        "Mastered Linux system administration"
+        "Learn First Programming Language",
+        "Solved 100+ coding challenges",
+        "Understood basic security concepts"
       ],
       color: "primary"
     },
     {
       id: 2,
       phase: "Web Development Entry",
-      period: "2019-2020",
-      title: "Frontend & Backend Basics",
+      period: "2020-2022",
+      title: "Frontend Basics",
       description: "Transitioned into web development while maintaining security focus. Learned HTML, CSS, JavaScript, and basic backend concepts with security-first approach.",
       technologies: [
         { name: "JavaScript", level: 75, category: "Programming" },
         { name: "HTML/CSS", level: 85, category: "Frontend" },
-        { name: "Node.js", level: 60, category: "Backend" },
+        { name: "Bootstrap", level: 78, category: "Fronted" },
         { name: "Web Security", level: 90, category: "Security" }
       ],
       achievements: [
-        "Built first secure web applications",
-        "Implemented OWASP security guidelines",
-        "Created security-focused development workflow"
+        "Built first web applications",
+        "Understand How Web Works",
+        "Implemented basic security measures",
       ],
       color: "accent"
     },
     {
       id: 3,
       phase: "React & Modern Frontend",
-      period: "2020-2021",
+      period: "2022-2023",
       title: "Component-Based Architecture",
       description: "Mastered React ecosystem and modern frontend development. Focused on building secure, scalable user interfaces with performance optimization.",
       technologies: [
@@ -66,7 +66,7 @@ const TechnicalEvolution = () => {
     {
       id: 4,
       phase: "Full-Stack Mastery",
-      period: "2021-2022",
+      period: "2023-2025",
       title: "MERN Stack Expertise",
       description: "Achieved full-stack proficiency with MERN stack. Integrated advanced security practices into every layer of application development.",
       technologies: [
@@ -85,7 +85,7 @@ const TechnicalEvolution = () => {
     {
       id: 5,
       phase: "Advanced & Cloud",
-      period: "2022-Present",
+      period: "2025-Present",
       title: "Cloud-Native & DevSecOps",
       description: "Expanded into cloud technologies and DevSecOps practices. Building scalable, secure applications with modern deployment strategies.",
       technologies: [
@@ -283,7 +283,7 @@ const TechnicalEvolution = () => {
         <div className="bg-gradient-to-r from-primary-50 to-accent-50 rounded-2xl p-8 lg:p-12 text-center">
           <Icon name="Target" size={48} className="text-accent mx-auto mb-6" />
           <h3 className="text-2xl lg:text-3xl font-heading font-bold text-primary mb-4">
-            The Result: Security-First Full-Stack Excellence
+            The Result: Security-First Development Excellence
           </h3>
           <p className="text-lg text-text-secondary max-w-3xl mx-auto mb-8">
             This evolutionary journey has created a unique skill set that combines deep security knowledge 

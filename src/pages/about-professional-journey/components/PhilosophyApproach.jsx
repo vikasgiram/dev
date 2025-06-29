@@ -287,11 +287,11 @@ const PhilosophyApproach = () => {
             </blockquote>
             <div className="flex items-center justify-center space-x-4">
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <Icon name="User" size={20} className="text-primary-foreground" />
+                <img className='rounded-full' src='https://avatars.githubusercontent.com/u/76585103?v=4'></img>
               </div>
               <div className="text-left">
                 <div className="font-heading font-semibold text-primary">Vikas Giram</div>
-                <div className="text-sm text-text-secondary">Security-First Full-Stack Developer</div>
+                <div className="text-sm text-text-secondary">Security-First Developer</div>
               </div>
             </div>
           </div>

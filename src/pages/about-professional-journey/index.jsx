@@ -12,7 +12,7 @@ const AboutProfessionalJourney = () => {
   return (
     <>
       <Helmet>
-        <title>About - Professional Journey | VikasGiram.dev</title>
+        <title>About - Professional Journey | Vikas Giram</title>
         <meta 
           name="description" 
           content="Discover Vikas Giram's unique journey from cybersecurity education to full-stack development mastery. Learn about his security-first approach to building robust web applications." 
