@@ -7,6 +7,7 @@ import TimelineItem from './components/TimelineItem';
 import FilterBar from './components/FilterBar';
 import ExperienceStats from './components/ExperienceStats';
 import SkillsEvolution from './components/SkillsEvolution';
+import Footer from 'components/ui/Footer';
 
 const ExperienceCareerTimeline = () => {
   const [expandedItems, setExpandedItems] = useState(new Set());
@@ -451,27 +452,13 @@ const ExperienceCareerTimeline = () => {
             >
               Start a Conversation
             </Button>
-            <Button
-              variant="ghost"
-              size="lg"
-              iconName="Download"
-              iconPosition="left"
-              className="text-white border-white hover:bg-white hover:text-primary"
-            >
-              Download Resume
-            </Button>
+            
           </div>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-surface border-t border-border mt-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-text-muted">
-            <p>&copy; {new Date().getFullYear()} VikasGiram.dev. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

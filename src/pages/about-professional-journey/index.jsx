@@ -7,6 +7,7 @@ import TechnicalEvolution from './components/TechnicalEvolution';
 import PhilosophyApproach from './components/PhilosophyApproach';
 import SocialProofSection from './components/SocialProofSection';
 import ResumeSection from './components/ResumeSection';
+import Footer from '../../components/ui/Footer';
 
 const AboutProfessionalJourney = () => {
   return (
@@ -45,27 +46,10 @@ const AboutProfessionalJourney = () => {
           
           {/* Resume Section */}
           <ResumeSection />
+
+          <Footer />
         </main>
 
-        {/* Footer */}
-        <footer className="bg-primary text-primary-foreground py-12">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="flex items-center justify-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                  <span className="text-accent-foreground font-bold text-sm">VG</span>
-                </div>
-                <span className="text-xl font-heading font-bold">VikasGiram.dev</span>
-              </div>
-              <p className="text-primary-foreground/80 mb-4">
-                Security-First Full-Stack Developer
-              </p>
-              <p className="text-primary-foreground/60 text-sm">
-                © {new Date().getFullYear()} Vikas Giram. All rights reserved.
-              </p>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   );

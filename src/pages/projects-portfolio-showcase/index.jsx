@@ -8,6 +8,7 @@ import ProjectModal from './components/ProjectModal';
 import FeaturedProject from './components/FeaturedProject';
 import ProjectStats from './components/ProjectStats';
 import CTASection from './components/CTASection';
+import Footer from 'components/ui/Footer';
 
 const ProjectsPortfolioShowcase = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -470,6 +471,8 @@ const processPayment = async (paymentData) => {
           onClose={() => setIsModalOpen(false)}
         />
       </div>
+
+      <Footer/>
     </>
   );
 };

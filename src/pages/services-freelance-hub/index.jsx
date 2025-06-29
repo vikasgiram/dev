@@ -10,6 +10,7 @@ import ConsultationBooking from './components/ConsultationBooking';
 import ProcessOverview from './components/ProcessOverview';
 import PricingTransparency from './components/PricingTransparency';
 import TrustSignals from './components/TrustSignals';
+import Footer from 'components/ui/Footer';
 
 const ServicesFreelanceHub = () => {
   const coreServices = [
@@ -252,7 +253,7 @@ const ServicesFreelanceHub = () => {
       </div>
 
       {/* Footer CTA */}
-      <section className="py-16 bg-gradient-primary text-white">
+      <section className="py-16 bg-gradient-primary text-white my-1">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">Ready to Build Something Amazing?</h2>
           <p className="text-xl opacity-90 mb-8">
@@ -281,7 +282,8 @@ const ServicesFreelanceHub = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-secondary-800 text-white py-12">
+      <Footer/>
+      {/* <footer className="bg-secondary-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="col-span-1 md:col-span-2">
@@ -330,7 +332,7 @@ const ServicesFreelanceHub = () => {
             <p>&copy; {new Date().getFullYear()} VikasGiram.dev. All rights reserved. Built with security in mind.</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };

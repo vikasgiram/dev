@@ -64,7 +64,7 @@ const Header = () => {
               <h1 className="text-xl font-heading font-bold text-primary group-hover:text-accent transition-smooth">
                 VikasGiram
               </h1>
-              <p className="text-xs font-mono">
+              <p className="text-xs text-black font-mono">
                 Security-First Developer
               </p>
             </div>

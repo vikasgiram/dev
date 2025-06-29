@@ -8,6 +8,8 @@ import InteractiveCodePlayground from './components/InteractiveCodePlayground';
 import CertificationBadges from './components/CertificationBadges';
 import ContinuousLearning from './components/ContinuousLearning';
 import GitHubIntegration from './components/GitHubIntegration';
+import Header from 'components/ui/Header';
+import Footer from 'components/ui/Footer';
 
 const SkillsTechnicalMasteryCenter = () => {
   const [activeSection, setActiveSection] = useState('overview');
@@ -355,13 +357,14 @@ CMD ["npm", "start"]`,
 
   return (
     <>
+      <Header/>
       <Helmet>
         <title>Skills - Technical Mastery Center | VikasGiram.dev</title>
         <meta name="description" content="Explore Vikas Giram's comprehensive technical skills across Frontend, Backend, Database, and Security domains. Interactive demonstrations, certifications, and continuous learning journey." />
         <meta name="keywords" content="React, Node.js, MongoDB, JavaScript, TypeScript, Cybersecurity, Full Stack Developer, Technical Skills" />
       </Helmet>
 
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen bg-background my-1">
         {/* Hero Section */}
         <section className="relative bg-gradient-primary text-white py-20">
           <div className="absolute inset-0 bg-black/20"></div>
@@ -530,19 +533,13 @@ CMD ["npm", "start"]`,
               >
                 Start a Project Discussion
               </Button>
-              <Button
-                variant="ghost"
-                size="lg"
-                iconName="Download"
-                iconPosition="left"
-                className="text-white border-white hover:bg-white hover:text-primary"
-              >
-                Download Technical Resume
-              </Button>
+              
             </div>
           </div>
         </section>
+
       </div>
+      <Footer />
     </>
   );
 };
