@@ -39,9 +39,9 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --sourcemap",
-    "serve": "vite preview",
-    "prebuild": "npm run build",
     "postbuild": "cp build/index.html build/404.html",
+    "serve": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

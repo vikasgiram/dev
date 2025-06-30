@@ -22,7 +22,7 @@ const AboutProfessionalJourney = () => {
         <meta property="og:title" content="About - Professional Journey | VikasGiram.dev" />
         <meta property="og:description" content="Discover Vikas Giram's unique journey from cybersecurity education to full-stack development mastery." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://vikasgiram.dev/about-professional-journey" />
+        <link rel="canonical" href="https://vikasgiram.github.io/dev/about-professional-journey" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

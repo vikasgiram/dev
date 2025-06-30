@@ -20,32 +20,32 @@ const ExperienceCareerTimeline = () => {
     {
       id: 1,
       type: 'work',
-      title: 'Senior Full-Stack Developer',
-      company: 'TechCorp Solutions',
+      title: 'Research and Development Engineer',
+      company: 'Daccess Security Systems Pvt. Ltd.',
       logo: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop&crop=center',
-      location: 'San Francisco, CA',
-      startDate: '2023-01-15',
+      location: 'Baner, Pune',
+      startDate: '2025-07-01',
       endDate: 'Present',
       current: true,
-      description: `Leading the development of enterprise-grade web applications with a focus on security-first architecture. Responsible for designing scalable MERN stack solutions that serve over 100,000+ active users while maintaining 99.9% uptime and implementing advanced cybersecurity measures.`,
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'TypeScript', 'AWS', 'Docker', 'Kubernetes', 'Redis', 'GraphQL'],
+      description: `Leading the research and development team to innovate and enhance security solutions. Focused on building scalable, secure, and high-performance applications using modern technologies. Collaborating with cross-functional teams to deliver cutting-edge products that meet client needs while adhering to best security practices.`,
+      technologies: ['Python', 'Video Analytics', 'Machine Learning', 'YOLOv8', 'Docker'],
       achievements: [
-        'Architected and deployed microservices infrastructure reducing system response time by 40%',
-        'Implemented advanced security protocols resulting in zero security breaches over 18 months',
-        'Led a team of 5 developers in delivering 3 major product releases ahead of schedule',
-        'Optimized database queries and caching strategies improving application performance by 60%',
-        'Established CI/CD pipelines reducing deployment time from 2 hours to 15 minutes'
+        'Spearheaded the development of a next-generation video analytics platform, improving detection accuracy by 30%',
+        'Implemented advanced security protocols that reduced system vulnerabilities by 40%',
+        'Led a team of 3 engineers, fostering a culture of innovation and continuous improvement',
+        'Optimized application performance, achieving a 50% reduction in response time for critical operations',
+        'Conducted regular security audits and implemented best practices to ensure compliance with industry standards'
       ],
       projects: [
         {
-          name: 'Enterprise Dashboard Platform',
-          description: 'Real-time analytics dashboard serving 50,000+ concurrent users with advanced data visualization and reporting capabilities.',
-          impact: '40% improvement in user engagement and 25% reduction in support tickets'
+          name: 'Traffic Signal Detection System',
+          description: 'A real-time traffic signal based on the density of vehicles using YOLOv8 and Python, enhancing urban traffic management.',
+          impact: 'Reduced traffic congestion by 25% in pilot areas, improving urban mobility and reducing emissions'
         },
         {
-          name: 'Secure API Gateway',
-          description: 'Microservices API gateway with advanced authentication, rate limiting, and monitoring capabilities.',
-          impact: 'Handled 10M+ API requests monthly with 99.99% availability'
+          name: 'Theft Detection System',
+          description: 'Developed a comprehensive theft detection system using video analytics and machine learning, enabling proactive security measures for clients.',
+          impact: 'Decreased theft incidents by 35% for clients, enhancing overall security and client trust'
         }
       ],
       skillsDeveloped: ['Team Leadership', 'System Architecture', 'Performance Optimization', 'DevOps', 'Mentoring'],
@@ -58,158 +58,157 @@ const ExperienceCareerTimeline = () => {
     {
       id: 2,
       type: 'work',
-      title: 'Full-Stack Developer',
-      company: 'InnovateTech',
+      title: 'Software Developer - Trainee',
+      company: 'Daccess Security Systems Pvt. Ltd.',
       logo: 'https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=100&h=100&fit=crop&crop=center',
-      location: 'Austin, TX',
-      startDate: '2021-06-01',
-      endDate: '2022-12-31',
+      location: 'Baner, Pune',
+      startDate: '2025-01-01',
+      endDate: '2025-07-01',
       current: false,
       description: `Developed and maintained multiple client-facing web applications using the MERN stack. Collaborated with cross-functional teams to deliver high-quality software solutions while ensuring security best practices and optimal user experience.`,
-      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'JavaScript', 'Material-UI', 'JWT', 'Stripe API', 'Socket.io'],
+      technologies: ['React.js', 'Node.js', 'Docker', 'Express.js', 'Firebase', 'Material-UI', 'JWT', 'REST API', 'Socket.io'],
       achievements: [
-        'Built 8 production-ready web applications serving 25,000+ users',
-        'Reduced application load time by 50% through code optimization and lazy loading',
-        'Implemented secure payment processing system handling $2M+ in transactions',
-        'Mentored 3 junior developers and conducted code reviews',
-        'Achieved 95% client satisfaction rate across all projects'
+        'Successfully delivered 2+ client projects on time with a 98% client satisfaction rate',
+        'Implemented security features that reduced vulnerability reports by 30%',
+        'Enhanced application performance by optimizing front-end code and implementing lazy loading',
+        'Conducted code reviews and provided mentorship to junior developers, improving team productivity',
+        'Participated in Agile ceremonies, contributing to sprint planning and retrospectives'
       ],
       projects: [
         {
-          name: 'E-commerce Platform',
-          description: 'Full-featured e-commerce solution with payment integration, inventory management, and admin dashboard.',
-          impact: 'Generated $500K+ in revenue for client within first 6 months'
+          name: 'CRM System',
+          description: 'Comprehensive CRM system for managing customer interactions, sales tracking, and reporting, built with React and Node.js.',
+          impact: 'Increased sales team efficiency by 20% through streamlined workflows and real-time data access'
         },
         {
-          name: 'Real-time Chat Application',
-          description: 'Scalable chat application with file sharing, group messaging, and video calling capabilities.',
-          impact: 'Supported 10,000+ concurrent users with real-time messaging'
+          name: 'RTSP-Realy Microservice',
+          description: 'Creatd a real-time streaming protocol relay service using Node.js and Socket.io, enabling secure and efficient video streaming for surveillance systems of Bha-Bha Automic Research Center Mumbai.',
+          impact: 'Enabled real-time video streaming with minimal latency, enhancing surveillance capabilities for clients'
         }
       ],
-      skillsDeveloped: ['Advanced React Patterns', 'Payment Integration', 'Real-time Applications', 'Code Review', 'Client Communication'],
+      skillsDeveloped: ['Docker', 'RESTful APIs', 'Real-time Communication', 'Security Best Practices', 'Agile Development'],
       testimonial: {
         quote: 'Vikas brought exceptional technical skills and a security-minded approach to every project. His ability to deliver complex features on time was remarkable.',
-        author: 'Michael Chen',
-        position: 'Product Manager, InnovateTech'
+        author: 'Ganesh Galande',
+        position: 'Manager It, Daccess Security Systems'
       }
     },
     {
       id: 3,
       type: 'work',
-      title: 'Junior Web Developer',
-      company: 'StartupHub',
+      title: 'Full Stack Developr - Intern',
+      company: 'Daccess Security Systems Pvt. Ltd.',
       logo: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=100&h=100&fit=crop&crop=center',
-      location: 'Remote',
-      startDate: '2020-03-15',
-      endDate: '2021-05-30',
+      location: 'Baner, Pune',
+      startDate: '2024-06-15',
+      endDate: '2025-01-01',
       current: false,
-      description: `Started my professional journey as a junior developer, focusing on frontend development with React.js and gradually expanding to full-stack development. Gained valuable experience in agile development methodologies and collaborative coding practices.`,
+      description: `Internship focused on full-stack web development with a strong emphasis on security practices. Assisted in building and maintaining internal tools and client-facing applications, gaining hands-on experience in the software development lifecycle and agile methodologies.`,
       technologies: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'Node.js', 'MySQL', 'Git'],
       achievements: [
-        'Successfully completed 15+ feature implementations in first year',
-        'Improved website accessibility score from 60% to 95%',
-        'Contributed to 3 major product releases',
-        'Reduced bug reports by 30% through thorough testing practices',
-        'Earned "Rising Star" recognition for exceptional growth'
+        'Contributed to 2 major projects, enhancing functionality and user experience',
+        'Implemented responsive design principles improving mobile user engagement by 30%',
+        'Automated testing processes reducing bug reports by 20%',
+        'Participated in daily stand-ups and sprint planning sessions, gaining agile development experience',
+        'Received "Intern of the Month" award for outstanding performance in November 2024'
       ],
       projects: [
         {
-          name: 'Company Portfolio Website',
-          description: 'Responsive portfolio website showcasing company services and client testimonials.',
-          impact: '200% increase in lead generation through improved web presence'
+          name: 'Ticketing Tool for services',
+          description: 'Internal tool for managing service requests, tracking issues, and providing real-time updates to clients.',
+          impact: 'Streamlined service request handling, reducing response time by 25%'
         },
         {
-          name: 'Internal Task Management Tool',
-          description: 'Custom task management application for internal team collaboration and project tracking.',
-          impact: '35% improvement in team productivity and project delivery'
+          name: 'Project Management Tool',
+          description: 'A collaborative tool for tracking project progress, task assignments, and team communication, designed to enhance productivity in software development teams.',
+          impact: 'Reduced project delivery time by 15% through improved task tracking and team collaboration features'
         }
       ],
       skillsDeveloped: ['React Development', 'Responsive Design', 'Version Control', 'Agile Methodology', 'Problem Solving'],
       testimonial: {
         quote: 'Vikas showed incredible dedication to learning and growth. His attention to detail and eagerness to take on challenges made him stand out from day one.',
-        author: 'Lisa Rodriguez',
-        position: 'Senior Developer, StartupHub'
+        author: 'Yogesh Singure',
+        position: 'Senior Developer, Daccess Security Systems'
       }
     },
     {
       id: 4,
       type: 'education',
-      title: 'Bachelor of Technology in Computer Science',
-      company: 'Tech University',
+      title: 'BTech in Cyber Security',
+      company: 'Savitribai Phule Pune University',
       logo: 'https://images.unsplash.com/photo-1562774053-701939374585?w=100&h=100&fit=crop&crop=center',
-      location: 'Mumbai, India',
-      startDate: '2016-07-01',
-      endDate: '2020-05-31',
+      location: 'Pune, India',
+      startDate: '2022-09-01',
+      endDate: '2025-06-02',
       current: false,
       description: `Comprehensive computer science education with specialization in cybersecurity and software development. Maintained excellent academic performance while actively participating in coding competitions and technical projects.`,
       technologies: ['C++', 'Java', 'Python', 'Data Structures', 'Algorithms', 'Database Systems', 'Network Security', 'Operating Systems'],
       achievements: [
-        'Graduated with First Class Honors (CGPA: 8.7/10)',
-        'Winner of Inter-University Coding Competition 2019',
-        'Published research paper on "Web Application Security Vulnerabilities"',
-        'Led university coding club with 200+ active members',
+        'Graduated with First Class Honors (CGPA: 8.34/10)',
+        'Winner of Inter-University Coding Competition 2023',
+        'Published research paper on "Air Quality Monitoring using IoT" in a national conference',
         'Completed advanced cybersecurity certification during final year'
       ],
       projects: [
         {
-          name: 'Secure Banking System',
-          description: 'Final year project implementing a secure online banking system with advanced encryption and fraud detection.',
-          impact: 'Received "Best Project Award" and recommendation for further research'
+          name: 'Secure Chatting  Web Application',
+          description: 'Final year project focused on developing a secure web application for real-time communication with end-to-end encryption.',
+          impact: 'Successfully implemented security protocols that prevented data breaches and ensured user privacy'
         },
         {
-          name: 'Network Intrusion Detection System',
-          description: 'Machine learning-based system for detecting and preventing network intrusions.',
-          impact: 'Achieved 95% accuracy in threat detection during testing'
+          name: 'Air Quality Monitoring System using IoT',
+          description: 'Developed an IoT-based system to monitor air quality in real-time, providing data visualization and alerts for pollution levels.',
+          impact: 'Enabled local authorities to take timely action against pollution, improving community health awareness'
         }
       ],
       skillsDeveloped: ['Programming Fundamentals', 'System Design', 'Research Skills', 'Leadership', 'Academic Writing'],
       testimonial: {
         quote: 'Vikas was one of our most promising students, combining strong technical skills with excellent leadership qualities. His passion for cybersecurity was evident throughout his studies.',
-        author: 'Dr. Rajesh Sharma',
-        position: 'Professor, Computer Science Department'
+        author: 'Dr. Dipika Ajarkar',
+        position: 'Head of Cyber Security Department, GH Raisoni College of Engineering'
       }
     },
     {
       id: 5,
-      type: 'certification',
-      title: 'AWS Certified Solutions Architect',
-      company: 'Amazon Web Services',
+      type: 'eudcation',
+      title: 'Diploma in Computer Technology',
+      company: 'Government Polytechnic Beed',
       logo: 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=100&h=100&fit=crop&crop=center',
-      location: 'Online',
-      startDate: '2022-08-01',
-      endDate: '2022-09-15',
+      location: 'Beed',
+      startDate: '2019-06-01',
+      endDate: '2022-08-15',
       current: false,
-      description: `Advanced certification demonstrating expertise in designing distributed systems and applications on AWS platform. Covers architectural best practices, security, and cost optimization strategies.`,
-      technologies: ['AWS EC2', 'AWS S3', 'AWS RDS', 'AWS Lambda', 'AWS CloudFormation', 'AWS IAM', 'AWS VPC', 'AWS CloudWatch'],
+      description: `Intensive diploma program focusing on practical skills in computer technology, including programming, networking, and cybersecurity fundamentals. Gained hands-on experience through projects and internships, laying the foundation for a career in software development.`,
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Python', 'Networking', 'Java', 'Cybersecurity Basics'],
       achievements: [
-        'Passed certification exam with 92% score on first attempt',
-        'Completed 40+ hours of hands-on lab exercises',
-        'Designed and implemented 5 real-world AWS architectures',
-        'Achieved cost optimization of 35% for existing client infrastructure',
-        'Became go-to AWS expert within the organization'
+        'Topped in the College with 85.03% in final exams',
+        'Become the Student President of the Computer Science Department',
+        'Developed a food delivery web application as a final project',
+        'Completed internship at a local IT firm focusing on web development',
+        'Organized technical workshops and coding bootcamps for peers'
       ],
-      skillsDeveloped: ['Cloud Architecture', 'Infrastructure as Code', 'Cost Optimization', 'Security Best Practices', 'Scalability Design']
+      skillsDeveloped: ['Web Development', 'Networking Fundamentals', 'Basic Cybersecurity', 'Team Leadership', 'Project Management'],
     },
     {
       id: 6,
-      type: 'certification',
-      title: 'Certified Ethical Hacker (CEH)',
-      company: 'EC-Council',
+      type: 'education',
+      title: 'Seconday School Certificate',
+      company: 'Shivaji High School',
       logo: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100&h=100&fit=crop&crop=center',
-      location: 'Online',
-      startDate: '2021-01-15',
-      endDate: '2021-03-20',
+      location: 'Beed',
+      startDate: '2017-06-15',
+      endDate: '2018-06-20',
       current: false,
-      description: `Comprehensive ethical hacking certification covering penetration testing methodologies, vulnerability assessment, and security analysis techniques. Demonstrates expertise in identifying and mitigating security vulnerabilities.`,
-      technologies: ['Penetration Testing', 'Vulnerability Assessment', 'Network Security', 'Web Application Security', 'Social Engineering', 'Cryptography'],
+      description: `Completed secondary education with a focus on science and mathematics. Developed foundational skills in programming and problem-solving through school projects and extracurricular activities.`,
+      technologies: ['Web', 'Programming', 'Mathematics', 'Physics', 'Chemistry'],
       achievements: [
-        'Achieved certification with distinction (95% score)',
-        'Completed 120+ hours of practical security testing',
-        'Identified and reported 50+ security vulnerabilities during training',
-        'Conducted security assessments for 3 client applications',
-        'Established security testing protocols for development team'
+        'Achieved 78% in final examinations',
+        'Participated in inter-school coding competition',
+        'Developed a simple web application for school event management',
+        'Member of the science club organizing monthly workshops',
+        'Volunteered for community service projects'
       ],
-      skillsDeveloped: ['Ethical Hacking', 'Security Assessment', 'Risk Analysis', 'Compliance', 'Security Documentation']
+      skillsDeveloped: ['Basic Programming', 'Problem Solving', 'Teamwork', 'Time Management', 'Communication']
     }
   ];
 

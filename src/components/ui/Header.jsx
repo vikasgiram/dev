@@ -9,11 +9,11 @@ const Header = () => {
   const location = useLocation();
 
   const navigationItems = [
-    { name: 'Journey', path: '/about-professional-journey', icon: 'User' },
-    { name: 'Portfolio', path: '/projects-portfolio-showcase', icon: 'FolderOpen' },
-    { name: 'Experience', path: '/experience-career-timeline', icon: 'Clock' },
-    { name: 'Services', path: '/services-freelance-hub', icon: 'Briefcase' },
-    { name: 'Skills', path: '/skills-technical-mastery-center', icon: 'Code' },
+    { name: 'Journey', path: '/dev/about-professional-journey', icon: 'User' },
+    { name: 'Portfolio', path: '/dev/projects-portfolio-showcase', icon: 'FolderOpen' },
+    { name: 'Experience', path: '/dev/experience-career-timeline', icon: 'Clock' },
+    { name: 'Services', path: '/dev/services-freelance-hub', icon: 'Briefcase' },
+    { name: 'Skills', path: '/dev/skills-technical-mastery-center', icon: 'Code' },
   ];
 
   useEffect(() => {
@@ -45,7 +45,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link 
-            to="/homepage-command-center" 
+            to="/dev/homepage-command-center" 
             className="flex items-center space-x-3 group"
             onClick={closeMobileMenu}
           >
