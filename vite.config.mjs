@@ -4,7 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import tagger from "@dhiwise/component-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({mode}) => ({
   // This changes the out put dir from dist to build
   // comment this out if that isn't relevant for your project
   build: {
@@ -12,10 +12,12 @@ export default defineConfig({
     chunkSizeWarningLimit: 2000,
   },
   plugins: [tsconfigPaths(), react(), tagger()],
+  base: mode === "production" ? "/dev" : "/",
   server: {
     port: "4028",
     host: "0.0.0.0",
     strictPort: true,
     allowedHosts: ['.amazonaws.com', '.builtwithrocket.new']
-  }
-});
+  },
+  
+}));
