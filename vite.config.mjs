@@ -12,7 +12,7 @@ export default defineConfig(({mode}) => ({
     chunkSizeWarningLimit: 2000,
   },
   plugins: [tsconfigPaths(), react(), tagger()],
-  base: mode === "production" ? "/dev" : "/",
+  base: mode === "production" ? "/dev/" : "/",
   server: {
     port: "4028",
     host: "0.0.0.0",
