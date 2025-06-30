@@ -18,13 +18,13 @@ const Routes = () => {
       <ScrollToTop />
       <RouterRoutes>
         {/* Define your routes here */}
-        <Route path="/" element={<HomepageCommandCenter />} />
-        <Route path="/homepage-command-center" element={<HomepageCommandCenter />} />
-        <Route path="/projects-portfolio-showcase" element={<ProjectsPortfolioShowcase />} />
-        <Route path="/experience-career-timeline" element={<ExperienceCareerTimeline />} />
-        <Route path="/about-professional-journey" element={<AboutProfessionalJourney />} />
-        <Route path="/skills-technical-mastery-center" element={<SkillsTechnicalMasteryCenter />} />
-        <Route path="/services-freelance-hub" element={<ServicesFreelanceHub />} />
+        <Route path="/dev" element={<HomepageCommandCenter />} />
+        <Route path="/dev/homepage-command-center" element={<HomepageCommandCenter />} />
+        <Route path="/dev/projects-portfolio-showcase" element={<ProjectsPortfolioShowcase />} />
+        <Route path="/dev/experience-career-timeline" element={<ExperienceCareerTimeline />} />
+        <Route path="/dev/about-professional-journey" element={<AboutProfessionalJourney />} />
+        <Route path="/dev/skills-technical-mastery-center" element={<SkillsTechnicalMasteryCenter />} />
+        <Route path="/dev/services-freelance-hub" element={<ServicesFreelanceHub />} />
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
       </ErrorBoundary>
