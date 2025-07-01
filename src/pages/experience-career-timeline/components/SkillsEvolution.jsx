@@ -19,8 +19,8 @@ const SkillsEvolution = ({ timelineData }) => {
       year: '2019',
       period: 'Foundation Years',
       skills: {
-        security: ['Network Security', 'Ethical Hacking', 'Vulnerability Assessment', 'Penetration Testing'],
-        tools: ['Wireshark', 'Nmap', 'Metasploit', 'Burp Suite'],
+        security: ['Information Security', 'Networking'],
+        tools: ['VS Code', 'Dev++', "Turbo C"],
         frontend: ['HTML', 'CSS', 'Basic JavaScript'],
         database: ['MySQL Basics']
       }
@@ -29,55 +29,54 @@ const SkillsEvolution = ({ timelineData }) => {
       year: '2020',
       period: 'Web Development Entry',
       skills: {
-        frontend: ['React.js', 'Bootstrap', 'jQuery', 'Responsive Design'],
-        backend: ['Node.js', 'Express.js', 'REST APIs'],
-        database: ['MongoDB', 'MySQL', 'Database Design'],
-        security: ['Web Security', 'OWASP Top 10', 'Secure Coding'],
-        tools: ['Git', 'VS Code', 'Postman']
+        frontend: ['HTML5', 'Bootstrap', 'JavaScript', 'Responsive Design'],
+        database: [ 'MySQL', 'Database Design'],
+        security: ['Web Security', 'Secure Coding'],
+        tools: ['Git', 'VS Code']
       }
     },
     {
       year: '2021',
-      period: 'Full-Stack Development',
+      period: 'Frontend Development',
       skills: {
-        frontend: ['Advanced React', 'Redux', 'Material-UI', 'Tailwind CSS'],
-        backend: ['Advanced Node.js', 'GraphQL', 'Microservices', 'Authentication'],
-        database: ['PostgreSQL', 'Redis', 'Database Optimization'],
-        security: ['JWT Security', 'OAuth', 'API Security', 'Data Encryption'],
-        tools: ['Docker', 'AWS Basics', 'CI/CD', 'Testing Frameworks']
+        frontend: ['React', 'State Management', 'Material-UI', 'CSS'],
+        backend: ['Java', 'Node.js Basics', 'Express.js', 'REST APIs'],
+        database: ['MongoDB Basics', 'NoSQL Concepts'],
+        security: ['Basic Cybersecurity', 'JWT Authentication'],
+        tools: ['Git', 'Postman']
       }
     },
     {
       year: '2022',
-      period: 'Advanced Specialization',
+      period: 'Full-Stack Development',
       skills: {
-        frontend: ['Next.js', 'TypeScript', 'Advanced State Management', 'Performance Optimization'],
-        backend: ['Serverless Architecture', 'Advanced APIs', 'Real-time Applications', 'Scalable Systems'],
-        database: ['Advanced MongoDB', 'Database Sharding', 'Performance Tuning', 'Data Analytics'],
-        security: ['Advanced Cybersecurity', 'Security Architecture', 'Compliance', 'Risk Assessment'],
-        tools: ['Kubernetes', 'Advanced AWS', 'Monitoring Tools', 'DevSecOps']
+        frontend: ['React', 'Redux', 'Redux/Toolkit', 'Tailwind CSS', 'API Integration'],
+        backend: ['Node.js', 'Express.js', 'MongoDB', 'RESTful APIs'],
+        database: ['MongoDB', 'Mongoose'],
+        security: ['OWASP Top 10', 'JWT', 'OAuth2'],
+        tools: ['Docker', 'CI/CD', 'GitHub Actions']
       }
     },
     {
       year: '2023',
-      period: 'Leadership & Innovation',
+      period: 'Advanced Full-Stack Development',
       skills: {
-        frontend: ['Advanced React Patterns', 'Micro-frontends', 'Web3 Integration', 'Progressive Web Apps'],
-        backend: ['Cloud Architecture', 'Event-Driven Architecture', 'Advanced Microservices', 'API Gateway'],
-        database: ['Multi-database Systems', 'Data Warehousing', 'Big Data', 'Analytics'],
-        security: ['Zero Trust Architecture', 'Cloud Security', 'DevSecOps', 'Security Leadership'],
-        tools: ['Advanced DevOps', 'Infrastructure as Code', 'Monitoring & Observability', 'Team Leadership']
+        frontend: ['React 18', 'Custom Hooks', 'TypeScript', 'Advanced CSS'],
+        backend: ['Node.js', 'Express.js', 'GraphQL', 'Microservices'],
+        database: ['MongoDB', 'PostgreSQL', 'Redis'],
+        security: ['Advanced Cybersecurity', 'OAuth2', 'API Security'],
+        tools: ['Docker', 'CI/CD Pipelines', 'Monitoring Tools']
       }
     },
     {
       year: '2024',
-      period: 'Current Expertise',
+      period: 'Project Building',
       skills: {
-        frontend: ['React 18', 'Advanced TypeScript', 'Modern CSS', 'AI Integration'],
-        backend: ['Advanced Cloud Services', 'AI/ML Integration', 'Advanced Security', 'System Design'],
-        database: ['Advanced Analytics', 'Real-time Data', 'Multi-cloud Databases', 'Data Security'],
-        security: ['AI Security', 'Advanced Threat Detection', 'Security Automation', 'Compliance Leadership'],
-        tools: ['Advanced Cloud Platforms', 'AI/ML Tools', 'Advanced Monitoring', 'Strategic Planning']
+        frontend: ['SEO', 'Server-Side Rendering', 'Static Site Generation'],
+        backend: ['Node.js', 'Express.js',  'Microservices Architecture'],
+        database: ['MongoDB'],
+        security: ['Advanced Cybersecurity Practices', 'API Security'],
+        tools: ['Docker',  'CI/CD Pipelines']
       }
     }
   ];

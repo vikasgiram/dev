@@ -9,64 +9,24 @@ const ClientSuccessStories = () => {
   const successStories = [
     {
       id: 1,
-      clientName: "TechFlow Solutions",
+      clientName: "Kalio IO Solutions",
       clientLogo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop&crop=center",
-      projectTitle: "E-commerce Platform Overhaul",
-      industry: "Retail Technology",
-      challenge: "Legacy e-commerce platform with security vulnerabilities and poor performance affecting 50,000+ daily users.",
-      solution: "Complete MERN stack rebuild with advanced security measures, performance optimization, and modern UX design.",
+      projectTitle: "EKYC Platform",
+      industry: "Identity Verification",
+      challenge: "Need for a secure and efficient EKYC solution to onboard users while preventing fraud.",
+      solution: "Developed a React-based EKYC platform with advanced security features including biometric verification and real-time fraud detection.",
       results: [
-        { metric: "Page Load Speed", improvement: "75% faster", icon: "Zap" },
-        { metric: "Security Score", improvement: "A+ rating", icon: "Shield" },
-        { metric: "Conversion Rate", improvement: "+45%", icon: "TrendingUp" },
-        { metric: "User Satisfaction", improvement: "4.8/5 stars", icon: "Star" }
+        { metric: "Onboarding Speed", improvement: "+50%", icon: "Clock" },
+        { metric: "Fraud Detection Rate", improvement: "+20%", icon: "Shield" },
+        { metric: "User Satisfaction", improvement: "+30%", icon: "Smile" },
+        { metric: "Support Requests", improvement: "-40%", icon: "MessageSquare" }
       ],
-      testimonial: "Vikas transformed our struggling platform into a high-performance, secure e-commerce powerhouse. His cybersecurity background gave us confidence that our customer data was protected while delivering an exceptional user experience.",
-      clientRole: "CTO",
+      testimonial: "Vikas delivered an exceptional EKYC platform that not only met our security needs but also provided a seamless user experience. His expertise in React and security best practices was evident throughout the project.",
+      clientRole: "CEO",
       projectDuration: "12 weeks",
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Stripe"],
+      technologies: ["React", "Node.js", "MongoDB", "AWS", "Tailwind CSS", "Express.js"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop"
     },
-    {
-      id: 2,
-      clientName: "HealthTech Innovations",
-      clientLogo: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=100&h=100&fit=crop&crop=center",
-      projectTitle: "HIPAA-Compliant Patient Portal",
-      industry: "Healthcare Technology",
-      challenge: "Need for a secure patient portal that meets HIPAA compliance while providing intuitive user experience for 10,000+ patients.",
-      solution: "Custom-built patient portal with end-to-end encryption, secure authentication, and comprehensive audit logging.",
-      results: [
-        { metric: "HIPAA Compliance", improvement: "100% certified", icon: "CheckCircle" },
-        { metric: "Patient Adoption", improvement: "+85%", icon: "Users" },
-        { metric: "Data Breaches", improvement: "Zero incidents", icon: "Shield" },
-        { metric: "Support Tickets", improvement: "-60%", icon: "MessageCircle" }
-      ],
-      testimonial: "Working with Vikas was a game-changer for our healthcare platform. His deep understanding of both security requirements and user experience resulted in a portal that patients love and we can trust completely.",
-      clientRole: "Head of Product",
-      projectDuration: "16 weeks",
-      technologies: ["React", "Express.js", "PostgreSQL", "JWT", "AWS"],
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop"
-    },
-    {
-      id: 3,
-      clientName: "FinanceFlow Corp",
-      clientLogo: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=100&h=100&fit=crop&crop=center",
-      projectTitle: "Real-time Trading Dashboard",
-      industry: "Financial Technology",
-      challenge: "High-frequency trading platform needed real-time data visualization with millisecond precision and bank-level security.",
-      solution: "React-based dashboard with WebSocket integration, advanced charting, and multi-layer security architecture.",
-      results: [
-        { metric: "Data Latency", improvement: "<50ms", icon: "Activity" },
-        { metric: "Uptime", improvement: "99.99%", icon: "Server" },
-        { metric: "Security Audits", improvement: "Passed all", icon: "Lock" },
-        { metric: "User Efficiency", improvement: "+70%", icon: "BarChart3" }
-      ],
-      testimonial: "Vikas delivered a trading dashboard that exceeded our performance requirements while maintaining the highest security standards. His attention to detail and technical expertise made the difference.",
-      clientRole: "VP of Engineering",
-      projectDuration: "10 weeks",
-      technologies: ["React", "Node.js", "Redis", "WebSocket", "D3.js"],
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop"
-    }
   ];
 
   const nextStory = () => {

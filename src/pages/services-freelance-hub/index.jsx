@@ -124,6 +124,14 @@ const ServicesFreelanceHub = () => {
     }
   ];
 
+  const scrollToProjectCalculator = () => {
+    const element = document.getElementById('projectCalculator');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
+
   const handleLearnMore = (service) => {
     alert(`Learn more about ${service.title}\n\nThis would typically open a detailed service page or modal with more information about the service, case studies, and booking options.`);
   };
@@ -175,6 +183,7 @@ const ServicesFreelanceHub = () => {
                 size="lg"
                 iconName="Calculator"
                 iconPosition="left"
+                onClick={scrollToProjectCalculator}
               >
                 Project Calculator
               </Button>
@@ -226,7 +235,7 @@ const ServicesFreelanceHub = () => {
       </section>
 
       {/* Project Calculator */}
-      <section className="py-20 bg-surface">
+      <section id='projectCalculator' className="py-20 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ProjectCalculator />
         </div>
@@ -242,7 +251,7 @@ const ServicesFreelanceHub = () => {
       <ProcessOverview />
 
       {/* Pricing Transparency */}
-      <PricingTransparency />
+      <PricingTransparency scrollToProjectCalculator= {scrollToProjectCalculator} />
 
       {/* Trust Signals */}
       <TrustSignals />
@@ -273,7 +282,7 @@ const ServicesFreelanceHub = () => {
               size="lg"
               iconName="Mail"
               iconPosition="left"
-              className="border-white text-white hover:bg-white hover:text-primary"
+              className="border-white text-black hover:text-primary"
             >
               Send Project Details
             </Button>

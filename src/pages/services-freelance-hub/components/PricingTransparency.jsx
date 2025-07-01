@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 
-const PricingTransparency = () => {
+const PricingTransparency = ({scrollToProjectCalculator}) => {
   const [selectedPricingModel, setSelectedPricingModel] = useState('project-based');
 
   const pricingModels = [
@@ -10,7 +10,7 @@ const PricingTransparency = () => {
       id: 'hourly',
       title: 'Hourly Rate',
       subtitle: 'Perfect for consultations and small tasks',
-      rate: '$85/hour',
+      rate: '$15/hour',
       description: 'Flexible hourly billing for consultations, code reviews, debugging, and small feature additions.',
       features: [
         'Minimum 2-hour blocks',
@@ -43,7 +43,7 @@ const PricingTransparency = () => {
       id: 'retainer',
       title: 'Monthly Retainer',
       subtitle: 'Ongoing partnership for growing businesses',
-      rate: 'From $3,500/month',
+      rate: 'From $720/month',
       description: 'Dedicated monthly hours for ongoing development, maintenance, and strategic technical guidance.',
       features: [
         '40+ hours per month',
@@ -62,7 +62,7 @@ const PricingTransparency = () => {
       size: 'Small Project',
       description: 'Simple web app, landing page, or basic API',
       timeframe: '2-4 weeks',
-      priceRange: '$2,500 - $8,000',
+      priceRange: '$500 - $800',
       examples: ['Landing pages', 'Simple CRUD apps', 'Basic APIs', 'Portfolio sites'],
       icon: 'Zap'
     },
@@ -70,7 +70,7 @@ const PricingTransparency = () => {
       size: 'Medium Project',
       description: 'Full-featured web application with database integration',
       timeframe: '6-12 weeks',
-      priceRange: '$8,000 - $25,000',
+      priceRange: '$800 - $2,500',
       examples: ['E-commerce platforms', 'Admin dashboards', 'SaaS applications', 'Mobile apps'],
       icon: 'Layers'
     },
@@ -78,19 +78,18 @@ const PricingTransparency = () => {
       size: 'Large Project',
       description: 'Complex enterprise application with advanced features',
       timeframe: '3-6 months',
-      priceRange: '$25,000 - $75,000+',
+      priceRange: '$2,500 - $7,500+',
       examples: ['Enterprise platforms', 'Multi-tenant SaaS', 'Complex integrations', 'Custom CMS'],
       icon: 'Building'
     }
   ];
 
   const additionalServices = [
-    { service: 'Security Audit', price: '$1,500 - $3,000', description: 'Comprehensive security assessment and recommendations' },
-    { service: 'Performance Optimization', price: '$1,000 - $2,500', description: 'Speed and performance improvements for existing applications' },
-    { service: 'Code Review', price: '$500 - $1,500', description: 'Detailed code quality assessment and improvement suggestions' },
-    { service: 'Technical Documentation', price: '$800 - $2,000', description: 'Complete technical documentation for your project' },
-    { service: 'Team Training', price: '$1,200/day', description: 'Technical training sessions for your development team' },
-    { service: 'Emergency Support', price: '$150/hour', description: 'Priority support for critical issues (24/7 availability)' }
+    { service: 'Performance Optimization', price: '$600 - $1,000', description: 'Speed and performance improvements for existing applications' },
+    { service: 'Code Review', price: '$300 - $550', description: 'Detailed code quality assessment and improvement suggestions' },
+    { service: 'Technical Documentation', price: '$400 - $600', description: 'Complete technical documentation for your project' },
+    { service: 'Team Training', price: '$120/day', description: 'Technical training sessions for your development team' },
+    { service: 'Emergency Support', price: '$15/hour', description: 'Priority support for critical issues (24/7 availability)' }
   ];
 
   const paymentTerms = [
@@ -263,6 +262,7 @@ const PricingTransparency = () => {
               size="lg"
               iconName="Calculator"
               iconPosition="left"
+              onClick={scrollToProjectCalculator}
             >
               Use Project Calculator
             </Button>
@@ -271,7 +271,7 @@ const PricingTransparency = () => {
               size="lg"
               iconName="MessageCircle"
               iconPosition="left"
-              className="border-white text-white hover:bg-white hover:text-primary"
+              className="border-white text-black hover:bg-white hover:text-primary"
             >
               Schedule Consultation
             </Button>

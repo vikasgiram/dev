@@ -31,7 +31,7 @@ const SkillsTechnicalMasteryCenter = () => {
           name: 'React.js',
           icon: 'Component',
           proficiency: 'Expert',
-          experience: '4+ years',
+          experience: '2+ years',
           description: 'Advanced React development with hooks, context, and performance optimization',
           codeExample: `const useSecureAuth = () => {
   const [user, setUser] = useState(null);
@@ -60,7 +60,7 @@ const SkillsTechnicalMasteryCenter = () => {
           name: 'JavaScript (ES6+)',
           icon: 'FileText',
           proficiency: 'Expert',
-          experience: '5+ years',
+          experience: '2+ years',
           description: 'Modern JavaScript with advanced patterns and performance optimization',
           codeExample: `class DataProcessor {
   constructor(options = {}) {
@@ -92,7 +92,7 @@ const SkillsTechnicalMasteryCenter = () => {
           name: 'TypeScript',
           icon: 'FileCode',
           proficiency: 'Advanced',
-          experience: '3+ years',
+          experience: '1+ years',
           description: 'Type-safe development with advanced TypeScript patterns',
           codeExample: `interface ApiResponse<T> {
   data: T;
@@ -138,7 +138,7 @@ class ApiClient {
           name: 'Node.js',
           icon: 'Cpu',
           proficiency: 'Expert',
-          experience: '4+ years',
+          experience: '2+ years',
           description: 'High-performance server applications with Express.js and microservices',
           codeExample: `const express = require('express');
 const rateLimit = require('express-rate-limit');
@@ -171,7 +171,7 @@ app.use((error, req, res, next) => {
           name: 'Express.js',
           icon: 'Zap',
           proficiency: 'Expert',
-          experience: '4+ years',
+          experience: '2+ years',
           description: 'RESTful API development with middleware and authentication',
           codeExample: `const authMiddleware = async (req, res, next) => {
   try {
@@ -208,7 +208,7 @@ app.use((error, req, res, next) => {
           name: 'MongoDB',
           icon: 'Database',
           proficiency: 'Expert',
-          experience: '4+ years',
+          experience: '2+ years',
           description: 'NoSQL database design, aggregation pipelines, and performance optimization',
           codeExample: `const getUserAnalytics = async (userId) => {
   return await User.aggregate([
@@ -251,7 +251,7 @@ app.use((error, req, res, next) => {
           name: 'MySQL',
           icon: 'Database',
           proficiency: 'Advanced',
-          experience: '3+ years',
+          experience: '0.5+ years',
           description: 'Relational database design, complex queries, and optimization',
           codeExample: `-- Complex query with joins and subqueries
 SELECT 
@@ -292,7 +292,7 @@ LIMIT 100;`,
           name: 'Git & GitHub',
           icon: 'GitBranch',
           proficiency: 'Expert',
-          experience: '5+ years',
+          experience: '2+ years',
           description: 'Version control, branching strategies, and collaborative development',
           codeExample: `# Advanced Git workflow
 git checkout -b feature/user-authentication
@@ -319,7 +319,7 @@ git push origin feature/user-authentication
           name: 'Docker',
           icon: 'Package',
           proficiency: 'Advanced',
-          experience: '2+ years',
+          experience: '1+ years',
           description: 'Containerization and deployment with Docker and Docker Compose',
           codeExample: `# Multi-stage Dockerfile for Node.js app
 FROM node:18-alpine AS builder
@@ -359,7 +359,7 @@ CMD ["npm", "start"]`,
     <>
       <Header/>
       <Helmet>
-        <title>Skills - Technical Mastery Center | VikasGiram.dev</title>
+        <title>Skills - Technical Mastery Center | Vikas Giram</title>
         <meta name="description" content="Explore Vikas Giram's comprehensive technical skills across Frontend, Backend, Database, and Security domains. Interactive demonstrations, certifications, and continuous learning journey." />
         <meta name="keywords" content="React, Node.js, MongoDB, JavaScript, TypeScript, Cybersecurity, Full Stack Developer, Technical Skills" />
       </Helmet>
@@ -463,15 +463,15 @@ CMD ["npm", "start"]`,
                 </h3>
                 <div className="grid md:grid-cols-4 gap-6">
                   <div className="space-y-2">
-                    <div className="text-3xl font-bold text-info">15+</div>
+                    <div className="text-3xl font-bold text-info">25+</div>
                     <div className="text-text-secondary">Technologies Mastered</div>
                   </div>
                   <div className="space-y-2">
-                    <div className="text-3xl font-bold text-accent">50+</div>
+                    <div className="text-3xl font-bold text-accent">7+</div>
                     <div className="text-text-secondary">Projects Completed</div>
                   </div>
                   <div className="space-y-2">
-                    <div className="text-3xl font-bold text-warning">5+</div>
+                    <div className="text-3xl font-bold text-warning">1+</div>
                     <div className="text-text-secondary">Years Experience</div>
                   </div>
                   <div className="space-y-2">

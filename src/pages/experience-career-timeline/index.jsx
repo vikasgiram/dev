@@ -310,7 +310,7 @@ const ExperienceCareerTimeline = () => {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Experience - Career Timeline | VikasGiram.dev</title>
+        <title>Experience - Career Timeline | Vikas Giram</title>
         <meta name="description" content="Explore Vikas Giram's professional journey through an interactive career timeline showcasing his growth from cybersecurity education to senior full-stack development expertise." />
         <meta name="keywords" content="Vikas Giram, career timeline, professional experience, full-stack developer, cybersecurity, MERN stack, career progression" />
       </Helmet>

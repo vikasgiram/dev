@@ -3,6 +3,8 @@ import Image from '../../../components/AppImage';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 
+import vickyPhoto from '../../../../public/assets/images/vickyFormalPhoto.jpg'; 
+
 const HeroSection = () => {
   return (
     <section className="relative bg-gradient-to-br from-primary-50 via-background to-accent-50 py-16 lg:py-24 overflow-hidden">
@@ -84,7 +86,7 @@ const HeroSection = () => {
               {/* Main Image Container */}
               <div className="relative overflow-hidden rounded-2xl shadow-large">
                 <Image
-                  src='../assets/images/vickyFormalPhoto.jpg'
+                  src='./assets/images/vickyFormalPhoto.jpg'
                   alt="Vikas Giram - Professional Developer Portrait"
                   className="w-full h-[500px] lg:h-[600px] object-cover"
                 />
