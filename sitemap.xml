@@ -4,12 +4,42 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- updated sitemap with all URLs from project routes -->
 
 <url>
   <loc>https://vikasgiram.github.io/dev/</loc>
   <lastmod>2025-07-01T10:16:15+00:00</lastmod>
   <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vikasgiram.github.io/dev/homepage-command-center</loc>
+  <lastmod>2025-07-01T10:16:15+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vikasgiram.github.io/dev/projects-portfolio-showcase</loc>
+  <lastmod>2025-07-01T10:16:15+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://vikasgiram.github.io/dev/experience-career-timeline</loc>
+  <lastmod>2025-07-01T10:16:15+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://vikasgiram.github.io/dev/about-professional-journey</loc>
+  <lastmod>2025-07-01T10:16:15+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://vikasgiram.github.io/dev/skills-technical-mastery-center</loc>
+  <lastmod>2025-07-01T10:16:15+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://vikasgiram.github.io/dev/services-freelance-hub</loc>
+  <lastmod>2025-07-01T10:16:15+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 
 </urlset>
