@@ -9,5 +9,5 @@ export default defineConfig(({ mode }) => ({
     chunkSizeWarningLimit: 2000,
   },
   plugins: [tsconfigPaths(), react(), tagger()],
-  base: mode === "production" ? "/dev/" : "/", // ✅ must have trailing slash
+  base: "/dev",
 }));

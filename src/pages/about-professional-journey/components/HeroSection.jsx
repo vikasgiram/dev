@@ -3,7 +3,6 @@ import Image from '../../../components/AppImage';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 
-import vickyPhoto from '../../../../public/assets/images/vickyFormalPhoto.jpg'; 
 
 const HeroSection = () => {
   return (
